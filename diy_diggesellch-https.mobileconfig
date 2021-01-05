@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadDisplayName</key>
+	<string>diyDigitaleGesellschaftCHDoH</string>
+	<key>PayloadIdentifier</key>
+	<string>com.diy.dns.diyDigitaleGesellschaftCHDoH</string>
+	<key>PayloadUUID</key>
+	<string>4F99AF90-C19B-41A6-B086-F094DB14CC7B</string>
+    <key>PayloadDescription</key>
+	<string>Digitale Gesellschaft CH DNS-HTTPS</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+    <array>
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>Digitale Gesellschaft CH DNS-HTTPS</string>
+			<key>PayloadType</key>
+	    	<string>com.apple.dnsSettings.managed</string>
+	    	<key>PayloadIdentifier</key>
+	    	<string>com.apple.dnsSettings.managed.EDACE5D7-87FE-4689-8324-0A0AB1613755</string>
+			<key>PayloadUUID</key>
+			<string>08B179A7-787D-426C-B857-789323294036</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>ProhibitDisablement</key>
+			<false/>
+			<key>DNSSettings</key>
+            <dict>
+                <key>DNSProtocol</key>
+				<string>HTTPS</string>
+				<key>ServerAddresses</key>
+				<array>
+		    		<string>185.95.218.42</string>
+		    		<string>185.95.218.43</string>
+		    		<string>2a05:fc84::42</string>
+		    		<string>2a05:fc84::43</string>
+				</array>
+				<key>ServerURL</key>
+				<string>https://dns.digitale-gesellschaft.ch/dns-query</string>
+            </dict>
+        </dict>
+    </array>
+</dict>
+</plist>

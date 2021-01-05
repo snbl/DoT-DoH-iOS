@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadDisplayName</key>
+	<string>diyCloudflareDoT</string>
+	<key>PayloadIdentifier</key>
+	<string>com.diy.dns.diyCloudflareDoT</string>
+	<key>PayloadUUID</key>
+	<string>13241598-E6D8-4BB0-9028-448B3C7599D1</string>
+    <key>PayloadDescription</key>
+	<string>Cloudflare DNS-TLS</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadContent</key>
+    <array>
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>Cloudflare DNS-TLS</string>
+			<key>PayloadType</key>
+	    	<string>com.apple.dnsSettings.managed</string>
+	    	<key>PayloadIdentifier</key>
+	    	<string>com.apple.dnsSettings.managed.C3D04D07-EB20-4537-B7B6-EE0FEE4A80F5</string>
+			<key>PayloadUUID</key>
+			<string>8346BEEE-2253-4386-9D25-0D14FDAC6623</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>ProhibitDisablement</key>
+			<false/>
+			<key>DNSSettings</key>
+            <dict>
+                <key>DNSProtocol</key>
+				<string>TLS</string>
+				<key>ServerAddresses</key>
+				<array>
+		    		<string>1.1.1.1</string>
+		    		<string>1.0.0.1</string>
+		    		<string>2606:4700:4700::1111</string>
+		    		<string>2606:4700:4700::1001</string>
+				</array>
+				<key>ServerName</key>
+				<string>1dot1dot1dot1.cloudflare-dns.com</string>
+            </dict>
+        </dict>
+    </array>
+</dict>
+</plist>
