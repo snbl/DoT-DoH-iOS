@@ -21,6 +21,10 @@ Settings according to apple device management documentation: https://developer.a
 Changelog
 ---------
 
+### v0.2 - 2021-01-09
+
+- quad9 provider added (quad9.net)
+
 ### v0.1 - 2020-11-13
 
-- initial version of config files
+- initial version of config files (cloudflare.com & digitale-gesellschaft.ch)
