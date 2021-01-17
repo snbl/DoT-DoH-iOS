@@ -48,7 +48,7 @@ In the subfolder "conditional" there are two sample files for such cases.
 Changelog
 ---------
 
-### v03 - 2021-01-17
+### v0.3 - 2021-01-17
 
 - adding conditional configuration files (template & cloudflare sample)
 
