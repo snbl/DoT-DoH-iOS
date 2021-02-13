@@ -1,51 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<dict>
-	<key>PayloadDisplayName</key>
-	<string>diyQuad9DoH</string>
-	<key>PayloadIdentifier</key>
-	<string>com.diy.dns.diyQuad9DoH</string>
-	<key>PayloadUUID</key>
-	<string>290E8040-22FE-4F06-B57E-DA24BDDC956E</string>
-    <key>PayloadDescription</key>
-	<string>Quad9 DNS-HTTPS</string>
-	<key>PayloadRemovalDisallowed</key>
-	<false/>
-	<key>PayloadVersion</key>
-	<integer>1</integer>
-	<key>PayloadType</key>
-	<string>Configuration</string>
-	<key>PayloadContent</key>
-    <array>
-		<dict>
-			<key>PayloadDisplayName</key>
-			<string>Quad9 DNS-HTTPS</string>
-			<key>PayloadType</key>
-	    	<string>com.apple.dnsSettings.managed</string>
-	    	<key>PayloadIdentifier</key>
-	    	<string>com.apple.dnsSettings.managed.5D49CADB-F240-45EA-9C90-1BDAA3EFB893</string>
-			<key>PayloadUUID</key>
-			<string>11C9EFC6-A5A8-4DBB-8E64-B247FC4022CB</string>
-			<key>PayloadVersion</key>
-			<integer>1</integer>
-			<key>ProhibitDisablement</key>
-			<false/>
-			<key>DNSSettings</key>
+    <dict>
+        <key>PayloadDisplayName</key>
+        <string>diyQuad9DoH</string>
+        <key>PayloadIdentifier</key>
+        <string>com.diy.dns.diyQuad9DoH</string>
+        <key>PayloadUUID</key>
+        <string>290E8040-22FE-4F06-B57E-DA24BDDC956E</string>
+        <key>PayloadDescription</key>
+        <string>Quad9 DNS-HTTPS</string>
+        <key>PayloadRemovalDisallowed</key>
+        <false/>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>PayloadType</key>
+        <string>Configuration</string>
+        <key>PayloadContent</key>
+        <array>
             <dict>
-                <key>DNSProtocol</key>
-				<string>HTTPS</string>
-				<key>ServerAddresses</key>
-				<array>
-		    		<string>9.9.9.9</string>
-		    		<string>149.112.112.112</string>
-		    		<string>2620:fe::fe</string>
-		    		<string>2620:fe::9</string>
-				</array>
-				<key>ServerURL</key>
-				<string>https://dns.quad9.net/dns-query</string>
+                <key>PayloadDisplayName</key>
+                <string>Quad9 DNS-HTTPS</string>
+                <key>PayloadType</key>
+                <string>com.apple.dnsSettings.managed</string>
+                <key>PayloadIdentifier</key>
+                <string>com.apple.dnsSettings.managed.5D49CADB-F240-45EA-9C90-1BDAA3EFB893</string>
+                <key>PayloadUUID</key>
+                <string>11C9EFC6-A5A8-4DBB-8E64-B247FC4022CB</string>
+                <key>PayloadVersion</key>
+                <integer>1</integer>
+                <key>ProhibitDisablement</key>
+                <false/>
+                <key>DNSSettings</key>
+                <dict>
+                    <key>DNSProtocol</key>
+                    <string>HTTPS</string>
+                    <key>ServerAddresses</key>
+                    <array>
+                        <string>9.9.9.9</string>
+                        <string>149.112.112.112</string>
+                        <string>2620:fe::fe</string>
+                        <string>2620:fe::9</string>
+                    </array>
+                    <key>ServerURL</key>
+                    <string>https://dns.quad9.net/dns-query</string>
+                </dict>
             </dict>
-        </dict>
-    </array>
-</dict>
+        </array>
+    </dict>
 </plist>
