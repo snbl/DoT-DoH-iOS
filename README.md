@@ -47,6 +47,10 @@ In the subfolder "conditional" there are two sample files for such cases.
 
 ## Changelog
 
+### v0.31 - 2021-02-23
+
+- DigitalCourage provider added (digitalcourage.de)
+
 ### v0.3 - 2021-01-17
 
 - adding conditional configuration files (template & cloudflare sample)
