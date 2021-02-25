@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>PayloadDisplayName</key>
+        <string>diyDigitalCourageDoT</string>
+        <key>PayloadIdentifier</key>
+        <string>com.diy.dns.diyDigitalCourageDoT</string>
+        <key>PayloadUUID</key>
+        <string>51ED002C-09B6-4E3B-B83B-78B77C3DEAD2</string>
+        <key>PayloadDescription</key>
+        <string>Digitalcourage DNS-TLS</string>
+        <key>PayloadRemovalDisallowed</key>
+        <false/>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>PayloadType</key>
+        <string>Configuration</string>
+        <key>PayloadContent</key>
+        <array>
+            <dict>
+                <key>PayloadDisplayName</key>
+                <string>Digitalcourage DNS-TLS</string>
+                <key>PayloadType</key>
+                <string>com.apple.dnsSettings.managed</string>
+                <key>PayloadIdentifier</key>
+                <string>com.apple.dnsSettings.managed.C1C65E83-9435-4835-A60E-2E030549D2A6</string>
+                <key>PayloadUUID</key>
+                <string>AA1C5914-82D8-4A1F-ADD1-FD59EF93CAB2</string>
+                <key>PayloadVersion</key>
+                <integer>1</integer>
+                <key>ProhibitDisablement</key>
+                <false/>
+                <key>DNSSettings</key>
+                <dict>
+                    <key>DNSProtocol</key>
+                    <string>TLS</string>
+                    <key>ServerAddresses</key>
+                    <array>
+                        <string>5.9.164.112</string>
+                    </array>
+                    <key>ServerName</key>
+                    <string>dns3.digitalcourage.de</string>
+                </dict>
+            </dict>
+        </array>
+    </dict>
+</plist>
