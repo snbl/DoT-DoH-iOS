@@ -7,9 +7,9 @@
         <key>PayloadIdentifier</key>
         <string>com.diy.dns.diyDigitalCourageDEDoT</string>
         <key>PayloadUUID</key>
-        <string>37F996E8-FEB7-410A-8348-ED466997BE26</string>
+        <string>51ED002C-09B6-4E3B-B83B-78B77C3DEAD2</string>
         <key>PayloadDescription</key>
-        <string>Digital Courage DE DNS-TLS</string>
+        <string>Digitalcourage DE DNS-TLS</string>
         <key>PayloadRemovalDisallowed</key>
         <false/>
         <key>PayloadVersion</key>
@@ -20,13 +20,13 @@
         <array>
             <dict>
                 <key>PayloadDisplayName</key>
-                <string>Digital Courage DE DNS-TLS</string>
+                <string>Digitalcourage DE DNS-TLS</string>
                 <key>PayloadType</key>
                 <string>com.apple.dnsSettings.managed</string>
                 <key>PayloadIdentifier</key>
-                <string>com.apple.dnsSettings.managed.E8F60F12-429B-4556-AD41-9007AAEEFAF1</string>
+                <string>com.apple.dnsSettings.managed.C1C65E83-9435-4835-A60E-2E030549D2A6</string>
                 <key>PayloadUUID</key>
-                <string>D7430A4D-E572-4B5B-A97D-E94FE2864B5A</string>
+                <string>AA1C5914-82D8-4A1F-ADD1-FD59EF93CAB2</string>
                 <key>PayloadVersion</key>
                 <integer>1</integer>
                 <key>ProhibitDisablement</key>
@@ -37,11 +37,10 @@
                     <string>TLS</string>
                     <key>ServerAddresses</key>
                     <array>
-                        <string>46.182.19.48</string>
-                        <string>2a02:2970:1002::18</string>
+                        <string>5.9.164.112</string>
                     </array>
                     <key>ServerName</key>
-                    <string>dns2.digitalcourage.de</string>
+                    <string>dns3.digitalcourage.de</string>
                 </dict>
             </dict>
         </array>

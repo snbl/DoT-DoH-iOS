@@ -6,6 +6,12 @@ Device configuration profiles for using public dns resolvers (e.g. dns.digitale-
 
 Settings according to apple device management documentation: <https://developer.apple.com/documentation/devicemanagement/dnssettings>
 
+Further information and lists of public dns server:
+
+- <https://de.wikipedia.org/wiki/DNS_over_TLS#%C3%96ffentliche_DNS-Server>
+- <https://de.wikipedia.org/wiki/DNS_over_HTTPS#%C3%96ffentliche_DNS-Server>
+- <https://dnsprivacy.org/wiki/>
+
 ### Conditional Encrypted DNS profiles
 
 In order to exclude certain networks from direct encrypted DNS requests profiles can be adapted for conditional use. Such exclusions can be defined using domain names, network names (SSID) or adress (ranges). One possible use case may be the exclusion of the home network with an own dns resolver for accessing the local NAS system. In order to use such functionality the following code section has to be added to the regular configuration file in which the string "WIFI Network Name" has to be replaced with the corresponding network name which shall be excluded.
@@ -49,7 +55,8 @@ In the subfolder "conditional" there are two sample files for such cases.
 
 ### v0.31 - 2021-02-23
 
-- DigitalCourage provider added (digitalcourage.de)
+- Digitalcourage DE provider added (digitalcourage.de)
+- adding references to dns privacy in README.md
 
 ### v0.3 - 2021-01-17
 
